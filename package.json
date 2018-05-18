@@ -1,13 +1,17 @@
 {
-  "name": "rollup-starter-lib",
+  "name": "prototype-mapboxgl",
   "version": "1.0.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "main": "dist/prototype-mapboxgl.cjs.js",
+  "module": "dist/prototype-mapboxgl.esm.js",
+  "browser": "dist/prototype-mapboxgl.umd.js",
   "dependencies": {
-    "ms": "^2.0.0"
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "redux": "^4.0.0"
   },
   "devDependencies": {
+    "jest": "^22.4.4",
     "rollup": "^0.59.0",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-node-resolve": "^3.0.0"
